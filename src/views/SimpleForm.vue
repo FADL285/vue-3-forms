@@ -11,7 +11,7 @@
 
       <fieldset>
         <legend>Name & describe your event</legend>
-        <BaseInput v-model="event.title" label="Title" type="text" error="error, fix" />
+        <BaseInput v-model="event.title" label="Title" type="text" />
         <BaseInput
           v-model="event.description"
           label="Description"
