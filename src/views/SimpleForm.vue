@@ -48,7 +48,7 @@
         </div>
       </fieldset>
 
-      <button class="button -fill-gradient" type="submit">Submit</button>
+      <BaseButton type="submit" class="-fill-gradient"> Submit </BaseButton>
     </form>
   </div>
 </template>
