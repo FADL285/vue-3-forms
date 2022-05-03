@@ -7,6 +7,7 @@
     v-bind="$attrs"
     :aria-describedby="error ? `${uuid}-error` : null"
     :aria-invalid="error ? true : null"
+    :class="{field: !error}"
   />
 
   <p
