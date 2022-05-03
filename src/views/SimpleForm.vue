@@ -43,6 +43,8 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   data() {
     return {
@@ -73,8 +75,18 @@ export default {
     };
   },
   methods: {
-    sendForm() {
-      
+    async sendForm() {
+      try {
+        const response = await axios.post(
+          'https://my-json-server.typicode.com/fadl285/vue-3-forms/events',
+          this.event
+        );
+        console.log(response);
+        console.log('------------------');
+        console.log(response.data);
+      } catch (error) {
+        console.log('Error: ' + error.message);
+      }
     }
   }
 };
