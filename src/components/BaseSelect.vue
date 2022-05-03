@@ -3,7 +3,6 @@
   <select
     :value="modelValue"
     @change="$emit('update:modelValue', $event.target.value)"
-    class="field"
     :id="uuid"
     v-bind="$attrs"
   >
