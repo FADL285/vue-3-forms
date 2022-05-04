@@ -12,7 +12,8 @@
     "core-js": "^3.8.3",
     "lodash": "^4.17.21",
     "vee-validate": "^4.5.11",
-    "vue": "^3.2.13"
+    "vue": "^3.2.13",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
